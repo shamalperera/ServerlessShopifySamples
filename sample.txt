@@ -1,0 +1,81 @@
+npm install -g serverless
+
+serverless config credentials --provider aws --key AKIAUNIYFGRO6IMAN2HV --secret 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
+
+serverless create --template aws-nodejs
+
+serverless deploy
+
+
+serverless invoke local --function hello
+
+npm install http-post
+
+
+
+
+$ npm install --save api-key-auth
+
+
+
+
+
+
+myshopify - Admin API
+
+
+
+user : e7525efd1ed7523a7d310cc784491c07
+
+pw : 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
+
+
+Example URL
+
+https://e7525efd1ed7523a7d310cc784491c07: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@ecomdatasync.myshopify.com/admin/api/2021-10/orders.json
+
+Private applications authenticate with Shopify through basic HTTP authentication, using the URL format https://{apikey}:{password}@{hostname}/admin/api/{version}/{resource}.json
+
+
+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
+
+
+Shared Secret
+
+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
+
+https://e7525efd1ed7523a7d310cc784491c07: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@ecomdatasync.myshopify.com/admin/api/2021-10/orders.json
+
+
+https://{e7525efd1ed7523a7d310cc784491c07}:{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}@{hostname}/admin/api/{version}/{resource}.json
+
+
+
+
+
+
+
+
+
+
+GIT
+
+Save your user name and password now (or download a credentials file).
+
+This is the only time the password can be viewed or downloaded. You cannot recover it later. However, you can reset your password at any time.
+
+You can use these credentials when connecting from your local computer or from tools that require a static user name and password. Learn more
+
+
+USER : serverless-cli-at-303382738013
+PW: SjoCIiUaMNmXacVteessissRpczw+EXdCUI/yavEWOE=
+
+
+
+https://7bc3mn4kld.execute-api.us-east-1.amazonaws.com/dev/handler/create
+
+
+npm uninstall @angular-devkit/core
+
+
+
